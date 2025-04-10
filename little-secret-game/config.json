@@ -1,0 +1,132 @@
+{
+    "gameConfig": {
+        "minPlayers": 3,
+        "maxPlayers": 8,
+        "maxRounds": 10,
+        "maxSecretLength": 30
+    },
+    "exampleSecrets": {
+        "oggetti": [
+            "cucchiaio",
+            "orologio",
+            "libro",
+            "telefono",
+            "bottiglia",
+            "chiave",
+            "occhiali",
+            "portafoglio"
+        ],
+        "luoghi": [
+            "spiaggia",
+            "montagna",
+            "cucina",
+            "biblioteca",
+            "cinema",
+            "scuola",
+            "parco",
+            "ristorante"
+        ],
+        "attività": [
+            "nuotare",
+            "leggere",
+            "cucinare",
+            "dormire",
+            "cantare",
+            "ballare",
+            "scrivere",
+            "disegnare"
+        ],
+        "concetti": [
+            "amore",
+            "tempo",
+            "pace",
+            "gioia",
+            "paura",
+            "speranza",
+            "libertà",
+            "sogno"
+        ]
+    },
+    "suggestedQuestions": {
+        "categoria": [
+            "È qualcosa che si usa quotidianamente?",
+            "È qualcosa che si può trovare in casa?",
+            "È qualcosa che si può mangiare?",
+            "È qualcosa che si può indossare?",
+            "È qualcosa che si può comprare in un negozio?",
+            "È qualcosa che si può trovare in natura?",
+            "È qualcosa che si può usare per comunicare?",
+            "È qualcosa che si può usare per viaggiare?"
+        ],
+        "caratteristiche": [
+            "È qualcosa di grande o piccolo?",
+            "È qualcosa di duro o morbido?",
+            "È qualcosa di leggero o pesante?",
+            "È qualcosa di caldo o freddo?",
+            "È qualcosa di vecchio o nuovo?",
+            "È qualcosa di costoso o economico?",
+            "È qualcosa di raro o comune?",
+            "È qualcosa di utile o decorativo?"
+        ],
+        "uso": [
+            "Lo usi spesso?",
+            "Lo usi principalmente di giorno o di notte?",
+            "Lo usi principalmente in casa o fuori?",
+            "Lo usi principalmente da solo o con altri?",
+            "Lo usi principalmente per lavoro o per svago?",
+            "Lo usi principalmente in estate o in inverno?",
+            "Lo usi principalmente al mattino o alla sera?",
+            "Lo usi principalmente in città o in campagna?"
+        ]
+    },
+    "suggestedAnswers": {
+        "frequenza": [
+            "A volte lo uso, ma non tutti i giorni",
+            "Lo uso abbastanza spesso",
+            "Raramente lo uso",
+            "Lo uso solo in occasioni speciali",
+            "Lo uso quasi ogni giorno",
+            "Lo uso solo quando necessario",
+            "Lo uso più spesso di quanto pensi",
+            "Lo uso meno spesso di quanto pensi"
+        ],
+        "luogo": [
+            "Potresti trovarlo in casa, ma non sempre",
+            "Di solito si trova all'esterno",
+            "Si può trovare sia dentro che fuori",
+            "È più comune trovarlo in un luogo specifico",
+            "Non è facile trovarlo ovunque",
+            "Si può trovare in molti posti diversi",
+            "È più facile trovarlo in alcuni posti che in altri",
+            "Non è sempre facile trovarlo"
+        ],
+        "caratteristiche": [
+            "Non è esattamente come lo descrivi",
+            "Hai ragione in parte",
+            "Non è proprio così",
+            "Ci sei vicino, ma non del tutto",
+            "La tua descrizione è parzialmente corretta",
+            "Non è esattamente quello che pensi",
+            "La tua idea non è completamente sbagliata",
+            "C'è qualcosa di vero in quello che dici"
+        ]
+    },
+    "gameMessages": {
+        "errors": {
+            "emptyName": "Inserisci un nome per il giocatore.",
+            "duplicateName": "Questo nome è già stato utilizzato.",
+            "minPlayers": "Sono necessari almeno 3 giocatori per iniziare.",
+            "maxPlayers": "Il numero massimo di giocatori è 8.",
+            "emptySecret": "Inserisci un segreto.",
+            "longSecret": "Il segreto non può superare i 30 caratteri.",
+            "emptyQuestion": "Inserisci una domanda.",
+            "emptyGuess": "Inserisci il tuo indovinello."
+        },
+        "success": {
+            "correctGuess": "Hai indovinato il segreto di {player}! Il segreto era: \"{secret}\"",
+            "nextPlayer": "Passa il dispositivo a {player}.",
+            "gameStart": "Il gioco è iniziato!",
+            "roundStart": "Inizia il round {round}!"
+        }
+    }
+} 

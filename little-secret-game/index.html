@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Secret - Gioco Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Little Secret</h1>
+        <p class="subtitle">Scopri chi è l'impostore!</p>
+
+        <!-- Game Setup Section -->
+        <section id="game-setup" class="active">
+            <h2>Setup del Gioco</h2>
+            <p>Aggiungi almeno 4 giocatori per iniziare. Uno di loro sarà scelto casualmente come impostore.</p>
+            <div class="input-group">
+                <input type="text" id="player-name" placeholder="Nome del giocatore">
+                <button id="add-player-btn">Aggiungi Giocatore</button>
+            </div>
+            <div id="player-list"></div>
+            <button id="start-game-btn" disabled>Inizia Gioco</button>
+        </section>
+
+        <!-- Gameplay Section -->
+        <section id="gameplay">
+            <div class="game-info">
+                <p>Round: <span id="round-number">1</span></p>
+                <p>Turno di: <span id="active-player"></span></p>
+            </div>
+
+            <div class="game-actions">
+                <div class="action-group">
+                    <h3>Fai una Domanda</h3>
+                    <select id="player-to-ask"></select>
+                    <input type="text" id="question-text" placeholder="Scrivi la tua domanda">
+                    <button id="ask-question-btn">Fai Domanda</button>
+                </div>
+
+                <div class="action-group">
+                    <h3>Indovina il Segreto</h3>
+                    <select id="player-to-guess"></select>
+                    <input type="text" id="guess-text" placeholder="Scrivi il tuo indovinello">
+                    <button id="make-guess-btn">Indovina</button>
+                </div>
+            </div>
+
+            <div class="game-log">
+                <h3>Storia del Gioco</h3>
+                <div id="game-log"></div>
+            </div>
+        </section>
+
+        <!-- Game Over Section -->
+        <section id="game-over">
+            <h2>Fine del Gioco</h2>
+            <div id="results"></div>
+            <button id="new-game-btn">Nuova Partita</button>
+        </section>
+    </div>
+
+    <!-- Response Modal -->
+    <div id="response-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title"></h2>
+            <p id="modal-message"></p>
+            <button id="modal-btn">OK</button>
+            <span class="close-modal">&times;</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
